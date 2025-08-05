@@ -19,10 +19,14 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background: #7a0035cc 100%;
   color: var(--text-dark);
   line-height: 1.6;
   scroll-behavior: smooth;
+}
+
+
+body{
+    background: #7a0035cc 100%;
 }
 
 h1, h2, h3 {
