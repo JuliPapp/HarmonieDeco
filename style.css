@@ -33,11 +33,6 @@ h1, h2, h3 {
   margin: 0;
 }
 
-.countdown-section, .regalos-section{
-  border-radius: 1rem;
-  margin: 0rem 1rem;
-}
-
 /* Hero principal */
 header#hero {
   position: relative;
@@ -131,6 +126,12 @@ header#hero .scroll-down {
   transform: translateY(50px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
+.countdown-section, .regalos-section{
+  border-radius: 1rem;
+  margin: 0rem 1rem;
+}
+
 
 .section.visible {
   opacity: 1;
