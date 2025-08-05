@@ -218,8 +218,13 @@ header#hero .scroll-down {
 
 .gallery-grid {
   display: grid;
+  /* Cada imagen ocupa un mínimo de 200px y se expande según el ancho */
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
+  /* Centrar la cuadrícula en su contenedor */
+  justify-content: center;
+  /* Centrar cada elemento dentro de su celda */
+  justify-items: center;
 }
 
 .gallery-grid img {
