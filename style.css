@@ -141,13 +141,15 @@ header#hero .scroll-down {
 }
 
 .info-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
 }
 
 .info-item {
   background: #fff;
+  width: 11rem;
   border: 1px solid #f0d7de;
   border-radius: 10px;
   padding: 1.5rem;
