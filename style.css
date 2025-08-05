@@ -26,7 +26,7 @@ html, body {
 
 
 body{
-    background: #7a0035cc 100%;
+    background: #f8f1f3 100%;
 }
 
 h1, h2, h3 {
@@ -145,11 +145,23 @@ header#hero .scroll-down {
 }
 
 .info-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
+
+@media (max-width: 900px) {
+  .info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .info-item {
   background: #fff;
