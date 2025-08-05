@@ -218,11 +218,9 @@ header#hero .scroll-down {
 
 .gallery-grid {
   display: grid;
-  /* Cada imagen ocupa un mínimo de 200px y se expande según el ancho */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* Tres columnas en desktop/tablet, cada una ocupa una fracción igual del espacio disponible */
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  /* Centrar la cuadrícula en su contenedor */
-  justify-content: center;
   /* Centrar cada elemento dentro de su celda */
   justify-items: center;
 }
@@ -356,5 +354,10 @@ header#hero .scroll-down {
   .time-box {
     min-width: 70px;
     padding: 0.8rem;
+  }
+
+  /* En móviles, cada imagen ocupa toda la fila en la galería */
+  .gallery-grid {
+    grid-template-columns: 1fr;
   }
 }
