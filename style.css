@@ -33,6 +33,10 @@ h1, h2, h3 {
   margin: 0;
 }
 
+.countdown-section, .regalos-section{
+  border-radius: 1rem;
+}
+
 /* Hero principal */
 header#hero {
   position: relative;
