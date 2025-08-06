@@ -333,8 +333,14 @@ header#hero .scroll-down {
 
 .despedida {
   margin-top: 1.5rem;
-  font-style: bold-italic;
+  font-style: italic;
+  font-weight: bold;
   color: var(--primary);
+}
+
+.limit {
+font-style: italic;
+color: var(--primary);
 }
 
 /* Footer */
