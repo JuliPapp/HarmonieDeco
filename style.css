@@ -339,6 +339,7 @@ header#hero .scroll-down {
 }
 
 .limit {
+font-size: small;
 font-style: italic;
 color: var(--primary);
 }
